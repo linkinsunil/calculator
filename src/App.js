@@ -27,8 +27,6 @@ const App = () => {
   const numClickHandler = (e) => {
     e.preventDefault();
     const value = e.target.innerHTML;
-    console.log(value);
-    console.log(removeSpaces(calc.num).length);
 
     if (removeSpaces(calc.num).length < 16) {
       setCalc({
@@ -37,7 +35,7 @@ const App = () => {
           calc.num === 0 && value === "0"
             ? "0"
             : removeSpaces(calc.num) % 1 === 0
-            ? toLocaleString(removeSpaces(Number(calc.num + value)))
+            ? toLocaleString(Number(removeSpaces(calc.num + value)))
             : toLocaleString(calc.num + value),
         res: !calc.sign ? 0 : calc.res,
       });
@@ -47,7 +45,6 @@ const App = () => {
   const commaClickHandler = (e) => {
     e.preventDefault();
     const value = e.target.innerHTML;
-    console.log(value);
 
     setCalc({
       ...calc,
