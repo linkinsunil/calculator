@@ -9,3 +9,9 @@ You can follow me for JavaScript based projects (like vanilla JavaScript, ReactJ
 ![calculator react app](https://github.com/linkinsunil/calculator/blob/master/calc.jpg?raw=true)
 
 ![alt text](https://github.com/[linkinsunil]/[calculator]/blob/[master]/calc.jpg?raw=true)
+src\assets\calc.JPG
+
+<p align="center">
+  <img src="src\assets\calc.JPG" width="350" title="calculator">
+  <img src="src\assets\calc.JPG" width="350" alt="accessibility text">
+</p>
