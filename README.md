@@ -8,4 +8,4 @@ You can follow me for JavaScript based projects (like vanilla JavaScript, ReactJ
 
 ![calculator react app](https://github.com/linkinsunil/calculator/blob/master/calc.jpg?raw=true)
 
-<!-- calculator//calc.jpg?raw=true) -->
+![alt text](https://github.com/[linkinsunil]/[calculator]/blob/[master]/calc.jpg?raw=true)
